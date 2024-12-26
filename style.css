@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    max-width:400px;
+    align-items: center;
+    justify-content:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header, .top{
+    background-color:#454f6f;
+    color:white;
+    font-size:0.6rem;
+    width:100%;
+    
+}
+header nav, .top, h1{
+    padding:0.9rem;
+    text-align:center;
+    
+
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:0.4rem;
+    font-size:0.8rem;
+
+}
+a:hover{
+    color: #b9c9ff;
+
+}
+.taste{
+    background:rgb(211, 121, 4);
+    color:white;
+    padding:2rem;
+    width:100%;
+}
+.taste p{
+    text-align:center;
+    font-size:1.5em;
+}
+.taste button{
+    display:none;
+}
+.taste #heroImage{
+     display:none; 
+}
+.about{
+   padding:0.5rem 1rem;
+   background:rgb(239, 243, 244); 
+   margin:2rem 1.5rem;
+   line-height:1.6rem;
+   border-radius:0.5rem;
+   width:100%;
+
+}
+.about h2{
+    margin:1.5rem;
+    text-align:center;
+    
+}
+p{
+   padding:1.5rem 1rem; 
+}
+section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    gap:1rem;
+    margin:0.5rem 0.5rem;
+    border-radius:0.5rem;
+    
+  }
+  .inner {
+    background-color:antiquewhite;
+    
+
+  }
+  .inner h3{
+    margin: 0.4em;
+    padding:0 0.4rem;
+    
+
+  }
+  .inner p{
+    /* display:none; */
+    margin: 0.1em 0;
+    word-break: break-word;
+
+  } 
+.inner img{
+    border-radius:0.5rem;
+    width:50%;
+     
+
+}
+.contact{
+    background-color: rgb(239, 243, 244);
+    padding:2rem;
+
+}
+.contact h4{
+    margin:1rem;
+    text-align:center;
+
+}
+.contact form{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+input, textarea, button{
+    margin:1.3rem;
+    padding:0.9rem 0.4rem;
+    border-radius:0.5rem;
+    border-width:0;
+
+}
+button{
+    background-color:rgb(211, 121, 4);
+    color:azure;
+    border-width:0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.bottom{
+    background-color:rgb(211, 121, 4);
+    text-align:center;
+    font-weight:normal;
+    font-size:0.9rem;
+    padding: 0rem 6.1rem;
+    width:100%;
+}
+@media (min-width: 400px){
+    
+    body{
+        background-color:rgb(255, 255, 255) !important;
+        max-width: none;
+
+    }
+    header,.top{
+        display:flex;
+        font-size:0.6rem;
+        justify-content: space-between;
+        align-items:center;
+        padding:1rem 1rem;
+        width:100%;
+        
+
+    }
+
+    
+    .taste{
+        display:flex;
+        flex-wrap:wrap;
+        letter-spacing:0.2rem;
+        justify-content:center;
+        justify-content:space-evenly
+
+    }
+    .textArea h1, .textArea p{
+        color:rgb(245, 236, 236);
+        text-align:left;
+    
+        
+    }
+    .textArea p{
+        color:rgb(243, 238, 238);
+        text-align:left;
+        
+    }
+    .taste #heroImage{
+        display:block;
+        width:300px;
+
+   }
+   .taste button{
+    display:block;
+    background-color:#454f6f;
+    color:rgb(181, 207, 207);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight:bold;
+
+    }
+    .taste button:hover {
+        color: #b1ad85;
+      }
+
+    img{
+        border-radius:0.5rem;
+        max-width: 400px; 
+    
+    }
+     section{
+        display:flex;
+        flex-direction:row;
+       
+        
+     }
+     .contact{
+        width:65%;
+    
+    }
+    footer{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+
+    
+    
+}   
+    
+
+
+
+
+
+
+
+
